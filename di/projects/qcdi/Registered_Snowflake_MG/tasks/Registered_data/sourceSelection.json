@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.database}}",
+      "name": "Categories",
+      "schema": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$dbo_categories"
+    },
+    {
+      "database": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.database}}",
+      "name": "AdamEmployeeView",
+      "schema": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.schema}}",
+      "type": "VIEW",
+      "sourceTableId": "$registered_data$dbo_adamemployeeview"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "registered_data-7saw",
+      "name": "Categories",
+      "type": "NONE",
+      "sourceTableId": "categories"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "registered_data-7saw",
+      "name": "AdamEmployeeView",
+      "type": "NONE",
+      "sourceTableId": "adamemployeeview"
+    }
+  ]
+}

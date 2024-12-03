@@ -1,0 +1,334 @@
+{
+  "id": "$registered_data$dbo_adamemployeeview",
+  "name": "dbo_AdamEmployeeView",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "AdamEmployeeView",
+    "dbSchema": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.schema}}",
+    "dbName": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.database}}",
+    "columns": [
+      {
+        "name": "EMPLOYEEID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 1,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(1,0)"
+        },
+        "id": "employeeid",
+        "flags": "NONE"
+      },
+      {
+        "name": "LASTNAME",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 7,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(7)"
+        },
+        "id": "lastname",
+        "flags": "NONE"
+      },
+      {
+        "name": "FIRSTNAME",
+        "ordinal": 3,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(6)"
+        },
+        "id": "firstname",
+        "flags": "NONE"
+      },
+      {
+        "name": "TITLE",
+        "ordinal": 4,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 13,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(13)"
+        },
+        "id": "title",
+        "flags": "NONE"
+      },
+      {
+        "name": "TITLEOFCOURTESY",
+        "ordinal": 5,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 3,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(3)"
+        },
+        "id": "titleofcourtesy",
+        "flags": "NONE"
+      },
+      {
+        "name": "BIRTHDATE",
+        "ordinal": 6,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(9)"
+        },
+        "id": "birthdate",
+        "flags": "NONE"
+      },
+      {
+        "name": "HIREDATE",
+        "ordinal": 7,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 9,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(9)"
+        },
+        "id": "hiredate",
+        "flags": "NONE"
+      },
+      {
+        "name": "ADDRESS",
+        "ordinal": 8,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 14,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(14)"
+        },
+        "id": "address",
+        "flags": "NONE"
+      },
+      {
+        "name": "CITY",
+        "ordinal": 9,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 13,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(13)"
+        },
+        "id": "city",
+        "flags": "NONE"
+      },
+      {
+        "name": "REGION",
+        "ordinal": 10,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 2,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(2)"
+        },
+        "id": "region",
+        "flags": "NONE"
+      },
+      {
+        "name": "POSTALCODE",
+        "ordinal": 11,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(5)"
+        },
+        "id": "postalcode",
+        "flags": "NONE"
+      },
+      {
+        "name": "COUNTRY",
+        "ordinal": 12,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 3,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(3)"
+        },
+        "id": "country",
+        "flags": "NONE"
+      },
+      {
+        "name": "HOMEPHONE",
+        "ordinal": 13,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 12,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(12)"
+        },
+        "id": "homephone",
+        "flags": "NONE"
+      },
+      {
+        "name": "EXTENSION",
+        "ordinal": 14,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 3,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(3)"
+        },
+        "id": "extension",
+        "flags": "NONE"
+      },
+      {
+        "name": "PHOTO",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16777216,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(16777216)"
+        },
+        "id": "photo",
+        "flags": "NONE"
+      },
+      {
+        "name": "NOTES",
+        "ordinal": 16,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 46,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(46)"
+        },
+        "id": "notes",
+        "flags": "NONE"
+      },
+      {
+        "name": "REPORTSTO",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 1,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(1,0)"
+        },
+        "id": "reportsto",
+        "flags": "NONE"
+      },
+      {
+        "name": "PHOTOPATH",
+        "ordinal": 18,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 19,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(19)"
+        },
+        "id": "photopath",
+        "flags": "NONE"
+      },
+      {
+        "name": "RUNNO_INSERT",
+        "ordinal": 19,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 4,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(4,0)"
+        },
+        "id": "runno_insert",
+        "flags": "NONE"
+      },
+      {
+        "name": "RUNNO_UPDATE",
+        "ordinal": 20,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 4,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(4,0)"
+        },
+        "id": "runno_update",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

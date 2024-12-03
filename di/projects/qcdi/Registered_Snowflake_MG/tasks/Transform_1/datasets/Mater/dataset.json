@@ -1,0 +1,51 @@
+{
+  "id": "mater-ixy9",
+  "name": "Mater",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "adamemployeeview-dttn",
+      "name": "AdamEmployeeView",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data_storage-7sax"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Mater",
+    "columns": [
+      {
+        "name": "NEWCOL",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "newcol",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "select\n\u0022LASTNAME\u0022::BIGINT AS \u0022NEWCOL\u0022\nFROM \u0022ADAM_NORTHWIND\u0022.\u0022dbo\u0022.\u0022AdamEmployeeView\u0022",
+      "alias": []
+    },
+    "incremental": true
+  }
+}

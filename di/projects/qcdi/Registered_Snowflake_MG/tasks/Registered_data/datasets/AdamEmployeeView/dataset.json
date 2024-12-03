@@ -1,0 +1,15 @@
+{
+  "id": "adamemployeeview",
+  "name": "AdamEmployeeView",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$dbo_adamemployeeview",
+      "name": "AdamEmployeeView",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-7saw",
+      "schema": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.schema}}",
+      "database": "{{task.registered_data-7saw:ADAM_NORTHWIND$_$dbo.database}}"
+    }
+  ]
+}
